@@ -1,0 +1,6 @@
+I have multiple middle tiers to connect from my application some of the requests through a Proxy some requests without the proxy. This middle tier urls only accessible through our staging server. Therefore, I need to write an. Net application which can run in my staging server to forward all the requests coming to the app to middle tiers based on the port
+eg: http://0.0.0.0:27000 to the middle 1 through proxy
+Http:0.0.0.0:27001 to middle tier 2 without proxy
+
+Generate a. Net application with yarp
+
